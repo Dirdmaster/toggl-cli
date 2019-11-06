@@ -1,10 +1,10 @@
 {
   "name": "toggl-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Manage your Toggl.com time entries from the familiarity of the nearby CLI.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:meeDamian/toggl-cli.git"
+    "url": "git@github.com:Dirdmaster/toggl-cli.git"
   },
   "main": "./src/main.js",
   "preferGlobal": true,

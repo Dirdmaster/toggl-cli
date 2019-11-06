@@ -110,7 +110,7 @@ me.request = function ({request}, token, {endpoint, method, version, wrapped}, p
 			method, url, qs, body,
 			json: true,
 			headers: {
-				Authorization: `Basic ${new Buffer(`${token}:api_token`, 'utf8').toString('base64')}`
+				Authorization: `Basic ${new Buffer.from(`${token}:api_token`, 'utf8').toString('base64')}`
 			}
 		}, (error, {statusCode}, body) => {
 			clearTimeout(tm);

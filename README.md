@@ -1,12 +1,11 @@
 # toggl-cli
-[![Build Status](https://travis-ci.org/meeDamian/toggl-cli.svg?branch=master)](https://travis-ci.org/meeDamian/toggl-cli) [ ![Codeship Status for meeDamian/toggl-cli](https://codeship.com/projects/4651ffa0-ae14-0133-e229-0eeab60c84ba/status?branch=master)](https://codeship.com/projects/132211) [![Coverage Status](https://coveralls.io/repos/github/meeDamian/toggl-cli/badge.svg?branch=master)](https://coveralls.io/github/meeDamian/toggl-cli?branch=master) [![codecov.io](https://codecov.io/github/meeDamian/toggl-cli/coverage.svg?branch=master)](https://codecov.io/github/meeDamian/toggl-cli?branch=master) [![npm version](https://badge.fury.io/js/toggl-cli.svg)](https://badge.fury.io/js/toggl-cli) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![Dependency Status](https://david-dm.org/meeDamian/toggl-cli.svg)](https://david-dm.org/meeDamian/toggl-cli) [![devDependency Status](https://david-dm.org/meeDamian/toggl-cli/dev-status.svg)](https://david-dm.org/meeDamian/toggl-cli#info=devDependencies)
-
+###This is a fork from [meeDamian](https://github.com/meeDamian/toggl-cli) 
 Manage your Toggl.com time entries from the familiarity of the nearby CLI.
 
 ## Download (node v5.0+)
 
 ```
-$ npm install -g toggl-cli
+$ npm install -g @dirdmaster/toggl-cli
 ```
 
 ## Usage (Simple)
@@ -114,16 +113,10 @@ $ toggl --logo
 ## Notice
 
 * This module is in no way supported nor developed by Toggl.com .
-* It's still WIP, any and all PRs highly appreciated (esp. tests ☺)
+* The original author doesn't seem to maintain this anymore, which is the reason of this fork 
+* Special thanks to [nethunter](https://github.com/nethunter) who added the possibility to use properties
 
 
-## Bugs and feedback
-
-If you discover a bug please report it [here](https://github.com/meeDamian/toggl-cli/issues/new).
-
-Mail me at bugs@meedamian.com, or on twitter [@meeDamian](http://twitter.com/meedamian).
-
-![codecov.io](https://codecov.io/github/meeDamian/toggl-cli/branch.svg?branch=master)
 
 
 ## License
