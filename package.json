@@ -1,5 +1,5 @@
 {
-  "name": "toggl-cli",
+  "name": "@dirdmaster/toggl-cli",
   "version": "0.3.0",
   "description": "Manage your Toggl.com time entries from the familiarity of the nearby CLI.",
   "repository": {
